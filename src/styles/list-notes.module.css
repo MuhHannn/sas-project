@@ -1,0 +1,65 @@
+/* styles.css atau nama file CSS Anda */
+
+/* Gaya untuk kontainer utama */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Gaya untuk sidebar */
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 250px; /* Atur lebar sidebar sesuai kebutuhan */
+}
+
+/* Gaya untuk konten utama */
+.main-content {
+  flex: 1; /* Agar konten utama mengambil sisa ruang */
+  padding: 20px;
+}
+
+/* Gaya untuk header */
+.header {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Gaya untuk tombol logout */
+.logout-btn {
+  font-weight: 600; /* Sesuaikan berat teks */
+  padding: 8px 16px; /* Sesuaikan ukuran padding */
+  margin-top: 16px; /* Sesuaikan jarak antar elemen */
+  background-color: #f44336; /* Atur warna latar belakang */
+  color: #fff; /* Atur warna teks */
+  border: none;
+  cursor: pointer;
+}
+
+/* Gaya untuk tabel */
+.table-container {
+  width: 100%;
+  margin-top: 20px; /* Sesuaikan jarak antar elemen */
+}
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Gaya untuk baris tabel */
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
